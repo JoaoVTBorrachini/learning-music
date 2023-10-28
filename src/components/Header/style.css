@@ -1,0 +1,19 @@
+.header{
+  display: flex;
+  padding: 32px 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-contact{
+  border: 2px solid #fff;
+  background: none;
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 14px;
+  transition: .2s;
+}
+.button-contact:hover{
+  background-color: #fff;
+  color: black;
+}
+
