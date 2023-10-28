@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.button-contact{
+.header .button-contact{
   border: 2px solid #fff;
   background: none;
   color: #fff;
@@ -12,12 +12,13 @@
   font-size: 14px;
   transition: .2s;
 }
-.button-contact:hover{
+.header .button-contact:hover{
   background-color: #fff;
   color: black;
 }
 
-.a{
-  
+.header .app-logo{
+  color: #fff;
+  height: 32px;
+  width: 32px;
 }
-
