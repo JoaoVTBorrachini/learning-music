@@ -1,21 +1,19 @@
-import { Header } from './components/Header'
-import { Layout } from './components/Layout'
-import { Footer } from './components/Footer'
+import { Layout } from "./components/Layout";
+import { Header } from "./components/Header";
+import { Main } from "./components/Main";
+import { Footer } from "./components/Footer";
+import { Sidebar } from "./components/Sidebar";
 
 function App() {
-
   return (
-    
-      <Layout>
-        
-        <Header/>
-
-        <Footer/>
-
-      </Layout>
-    
-    
-  )
+    <Layout>
+      <Header />
+      <Main>
+        <Sidebar/>
+      </Main>
+      <Footer />
+    </Layout>
+  );
 }
 
-export default App
+export default App;

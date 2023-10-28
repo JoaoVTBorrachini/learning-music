@@ -4,7 +4,6 @@ interface Props {
 }
 export function Layout({ children }: Props) {
   return <div className='layout'>
-    
     {children}
   </div>;
 
