@@ -1,18 +1,8 @@
-import { Layout } from "./components/Layout";
-import { Header } from "./components/Header";
-import { Main } from "./components/Main";
-import { Footer } from "./components/Footer";
-import { Sidebar } from "./components/Sidebar";
+import { Home } from "./pages/Home"
 
 function App() {
   return (
-    <Layout>
-      <Header />
-      <Main>
-        <Sidebar/>
-      </Main>
-      <Footer />
-    </Layout>
+    <Home/>
   );
 }
 

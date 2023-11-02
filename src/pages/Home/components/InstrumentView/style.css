@@ -1,0 +1,69 @@
+.instrument-view{
+display: flex;
+flex: 1;
+position: relative;
+align-items: center;
+justify-content: center;
+
+}
+.instrument-title {
+  transform: translateX(155px) translateY(-120px);
+  z-index: 1;
+}
+
+.instrument-title h2{
+  font-size: 24px;  
+}
+.instrument-title h3{
+  font-size: 96px;  
+  margin-top: 8px;
+  font-weight: 700;
+}
+.instrument-current{
+  font-size: 22px;  
+  margin-top: 8px;
+  font-weight: 700;
+}
+.instrument-image-wrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instrument-image{
+  max-width: 600px;
+  max-height: 600px;
+  z-index: 3;
+  filter: grayscale(100%) contrast(1.1);
+}
+.background-circle{
+  height: 500px;
+  width: 500px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  mix-blend-mode: exclusion;
+  z-index: 2;
+  filter: drop-shadow(0 0 56px #fff5);
+
+}
+
+.instrument-action{
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-145px) translateY(120px) ;
+  border: 2px solid #fff;
+  padding: 24px;
+  font-size: 24px;
+  max-width: 380px;
+}
+.instrument-action a{
+  color: #fff;
+  margin-top: 16px;
+  display: block;
+  margin-left: auto;
+}
+.instrument-action p{
+font-weight: 700;
+letter-spacing: 1px;
+}
